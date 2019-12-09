@@ -1,0 +1,8 @@
+Input form
+<form enctype="multipart/form-data"
+      action="{{=URL()}}" method="post">
+Your name:
+<input name="name" />
+<input type="submit" />
+</form>
+{{=BEAUTIFY(request.vars)}}
